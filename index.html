@@ -1,70 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
-    <title>Vineeth Komarraju</title>
+  <title>Vineeth Komarraju</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-        <img src="vkpic.jpeg" width="300" height="250">
-        <h1>Vineeth Komarraju</h1>
-        <!-- Question 1. Add a unique id to each div that belongs to the class "section-wrapper".-->
-        <div class="section-wrapper" id='01'>
-            <h2>Education</h2>
-            <h3>UC Berkeley — Bachelors Computer Science</h3>
-            <p>Relevant Coursework: The Structure and Interpretation of Computer Programs, 
-                Data Structures and Algorithms, Foundations of Data Science, Principles and Techniques of Data Science, 
-                Introduction to Artificial Intelligence</p>
-            <h3><b>CHIREC International</b> - High School</h3>
-            <p>GPA: 95.2% (Grade 12), 94.4% (Grade 10)</p>
-        </div>
-        <div class="section-wrapper" id='02'>
-            <h2>Experience</h2>
-            <!-- Question 3a. Copy-paste the div with the class experience-list-item twice, and fill them in with your work experiences. -->
-            <div class = "experience-wrapper">
-                <div class="experience-list-item">
-                    <h3>Arete - Cyber Security Engineer Intern</h3>
-                    <ul>
-                    <li>Conducted analysis on real-world attack vectors to simulate potential breaches, 
-                        resulting in a <b>40% improvement in threat detection capabilities</b>.</li>
-                    <li>Performed monthly security audits and vulnerability assessments on key systems, 
-                        identifying and <b>resolving 20+ potential weaknesses</b>.</li>
-                    <li>Automated 3 manual security processes, <b>saving the team an estimated 10 hours per week</b></li>
-                    </ul>
-                </div>
-                <div class="experience-list-item">
-                    <h3>Spaces and More -
-                        Marketing and Design Intern</h3>
-                    <ul>
-                    <li>Part of the <b>UI/UX design team</b> and social media marketing team as an intern.</li>
-                    <li>Gained knowledge on the latest design methodologies like <b>Agile and design thinking</b></li>
-                    <li>Developed a strong understanding of Wireframing and the <b>Figma design tool</b></li>
-                    </ul>
-                </div>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    
+    <p>Vineeth Komarraju</p>
+  </a>
+  <p class="device-notification--message">Find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            
+            <p>Vineeth Komarraju</p>
+          </a>
+          <button class="header--cta cta">Hire Me</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Tracks</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire Me</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>CS @ UC <br>Berkeley<br>+ Musician</h1>
+                <button class="cta">Hire Me
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/Subject 2.png" alt="Welcome" class="intro-banner-img" width="400" height="450
+                ">
+              </div>
+              <div class="intro--options">
+                <a href="assets/img/Vineeth_Komarraju_resume.pdf">
+                  <h3>Cloud@CAL - Educator</h3>
+                  <p>August 2023 – Present</p>
+                </a>
+                <a href="assets/img/Vineeth_Komarraju_resume.pdf">
+                  <h3>Cyber Security Engineer Intern - Arete</h3>
+                  <p>June 2023 - August 2023
+                  </p>
+                </a>
+                <a href="assets/img/Vineeth_Komarraju_resume.pdf">
+                  <h3>Data Analysis in Design Intern- Spaces and More</h3>
+                  <p>April 2020 - June 2020</p>
+                </a>
+              </div>
             </div>
-            <!-- Question 3c. Create a div that contains/wraps around ALL the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
-        </div>
-        <div class="section-wrapper" id='03'>
-            <h2>Projects</h2>
-            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
-            <div class = "project-wrapper">
-                <div class="project-list-item">
-                    <h3><a href="https://github.com/vineethkom/pricePredictions/blob/main/LR%20Model%20for%20%24BTC.ipynb">Price Prediction Engine</a></h3>
-                    <p>PA jupyter notebook to build a predictive model for the price of bitcoin (Python, API Integration, Pandas, NumPy)</p>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected Tracks</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="https://soundcloud.com/user-165317035/sets/siptrip?si=26ab11d5a7e741698f5b64ac74c5ba93&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                      <div class="slider--item-image">
+                        <img src="assets/img/sipTrip.JPEG" alt="sip//trip">
+                      </div>
+                      <p class="slider--item-title">sip//trip</p>
+                      <p class="slider--item-description">acoustic spring vibes</p>
+                    </a>
+                  </li>    
+                  <li class="slider--item slider--item-center">
+                    <div class="slider--item-image">
+                      <a href="https://soundcloud.com/user-165317035/bombaymirage?si=07365606f6894e5db18ee67b5d1165c4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                        <img src="assets/img/bombayMirage.JPEG" alt="bombay//mirage">
+                      </a>
+                    </div>
+                    <p class="slider--item-title">bombay//mirage</p>
+                    <p class="slider--item-description">sampled a classic 90s bollywood track onto my guitars</p>
+                  </li>                
+                  <li class="slider--item slider--item-right">
+                    <div class="slider--item-image">
+                      <a href="https://soundcloud.com/user-165317035/namonamah?si=d58491a472ef4aeaa879a3fddef3a29a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                        <img src="assets/img/namoNamah.JPEG" alt="namo//namah">
+                      </a>
+                    </div>
+                    <p class="slider--item-title">namo//namah</p>
+                    <p class="slider--item-description">lil hand at carnatic guitar. tribute to lord shiva.</p>
+                  </li>                
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
                 </div>
-                <div class="project-list-item">
-                    <h3><a href="https://vineethkom.github.io/CompoundCalculator/">Compoud Interest Calculator</a></h3>
-                    <p>A React application to calculate one of 4 variable given 3 (Principle, Interest Rate, Time Period, Amount)</p>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
                 </div>
+              </div>
             </div>
-        </div>
-            <!-- Question 4b. Create a div that contains/wraps around all the projects-list-item divs named "project-wrapper". You'll need this later! -->
-        <div class="section-wrapper" id='04'>
-            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
-            <p><a href="https://www.linkedin.com/in/vineeth-komarraju-2bb7361aa/">You can contact me here!</a></p>
-        </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>I'm just <br >trynna <br> chill</h2>
+                <p>Grew Up: Hyderbad, India</p>
+                <p>Currently: Berkeley, CA</p>
+                <a href="https://github.com/vineethkom">GitHub
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/DenBG.JPEG" alt="About Us" width="500" height="600">
+              </div>
+              <div class="about--options">
+                <a href="https://www.linkedin.com/in/vineeth-komarraju-2bb7361aa/">
+                  <h3>LinkedIn</h3>
+                </a>
+                <a href="https://www.instagram.com/vineethdotkom/">
+                  <h3>Instagram</h3>
+                </a>
+                <a href="https://on.soundcloud.com/dcvtX6jAXCMNtLV16">
+                  <h3>SoundCloud</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Berkeley, CA</p>
+                    <a href="mailto:vineeth.kom@berkeley.edu">vineeth.kom@berkeley.edu</a>
+                    <a href="tel:+15102038538">+1 (510)-203-8538</a>
+                  </div>
+                  <ul class="modal--options">
+              
+                    <li><a href="mailto:vineeth.kom@berkeley.edu">Contact Me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>You want us to do</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      App Design
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Graphic Design
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Motion Design
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      UX Design
+                    </label>
+                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Webdesign
+                    </label>
+                    <input id="opt-6" type="checkbox" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Marketing
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Tracks</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Hire Me</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 </body>
 </html>
